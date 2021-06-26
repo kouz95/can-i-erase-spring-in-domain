@@ -1,4 +1,4 @@
-package com.example.canierasespringindomain.domain.model;
+package com.example.canierasespringindomain.domain.model.order;
 
 import java.util.Optional;
 
