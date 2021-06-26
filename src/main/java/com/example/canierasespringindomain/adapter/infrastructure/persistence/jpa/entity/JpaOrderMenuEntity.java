@@ -1,4 +1,4 @@
-package com.example.canierasespringindomain.adapter.spring.jpa.entity;
+package com.example.canierasespringindomain.adapter.infrastructure.persistence.jpa.entity;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

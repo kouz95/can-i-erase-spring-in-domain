@@ -1,4 +1,4 @@
-package com.example.canierasespringindomain.adapter.spring.jpa.entity;
+package com.example.canierasespringindomain.adapter.infrastructure.persistence.jpa.entity;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -11,11 +11,11 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-@Table(name = "member")
-public class JpaMemberEntity {
+@Table(name = "menu")
+public class JpaMenuEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
+    private String title;
 }
